@@ -1,0 +1,255 @@
+/* 
+* @Author: Marte
+* @Date:   2018-11-24 17:16:35
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-11-29 15:02:46
+*/
+/*<!-- <header> -->*/
+
+
+/*logo*/
+
+
+
+
+
+
+
+#footerimg{
+  width: 100%;
+  text-align: center;
+
+}
+
+#footer{
+  width: 100%;
+  height: 120px;
+  background: #FFFFFF;
+}
+
+#footer .footer{
+  height: 182px;
+  background: #FFFFFF;
+padding-top: 34px;
+padding-left: 55px;
+
+
+}
+
+#footer .footer .footer_l:nth-child(6){
+  margin-right: 0px;
+}
+
+
+#footer .footer .footer_l{
+width: 92px;
+height: 121px;
+margin-right: 110px;
+
+}
+#footer .footer .footer_l h2{
+  font-size: 14px;
+  color:#000000;
+  margin-bottom: 7px;
+}
+#footer .footer .footer_l ul li{
+  color:#666666;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+#footer22{
+  width: 100%;
+  height: 33px;
+  background: #444851;
+}
+#footer22 .#footer22{
+   height: 33px;
+ 
+}
+#footer22 .footer22 ul{
+  width: 1150px;
+  height: 33px;
+  padding-left: 60px;
+}
+#footer22 .footer22 ul li{
+  width: 85px;
+  height: 33px;
+  float:left;
+  
+  color:#666666;
+  font-size: 10px;
+  line-height: 33px;
+  background:url(../img/indexImg/footer101.png) no-repeat right center;
+  text-align:center;
+}
+
+#footer33{
+  width: 100%;
+  height: 179px;
+  background: #FFFFFF;
+}
+#footer33  .footer33{
+  
+  height: 179px;
+  text-align: center;
+
+}
+#footer33  .footer33 p{
+  font-size: 12px;
+  color:#000000;
+  text-align: center;
+  line-height: 24px;
+
+}
+#footer33  .footer33 p:nth-child(1){
+  margin-top: 10px;
+}
+
+
+#Shoppingcartbar{
+  width: 36px;
+  height: 647px;
+  background: #444851;
+  position:fixed;
+  right:0px;
+  top:0px;
+  
+}
+
+
+#Shoppingcartbar .Shoppingcartbar{
+  width: 36px;
+  height: 647px;
+  background: #444851;
+ 
+  position:relative;
+}
+
+#Shoppingcartbar .Shoppingcartbar p{
+  background: #444851;
+  width: 36px;
+  height: 30px;
+}
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(2){
+  background:#444851;
+  width: 36px;
+  height: 108px;
+   position:absolute;
+  top:132px;
+}
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3){
+  background:#444851;
+  width: 36px;
+  height: 108px;
+   position:absolute;
+  top:364px;
+
+  /*z-index: 1;*/
+}
+
+
+#Shoppingcartbar .Shoppingcartbar i{
+  display:block;
+  width: 36px;
+  height: 30px;
+  background: url(../img/indexImg/left.png) no-repeat;
+}
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(1) i{background-position: -3px -94px;
+  position:absolute;
+  top:101px;
+}
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(2) i{background-position: -3px -146px;
+ /*  position:absolute;
+  top:101px;*/
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3) i{background-position: -567px -29px;
+  /* position:absolute;
+  top:363px;*/
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3) i:nth-of-type(2){background-position: -2px -192px;
+   position:absolute;
+  top:55px;
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(4) i{background-position: -1px -240px;
+   position:absolute;
+  top:483px;
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(5) i{background-position: -2px -284px;
+   position:absolute;
+  top:519px;
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(6) i{background-position: -2px -322px;
+   position:absolute;
+  top:554px;
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(7) i{background-position: -2px -357px;
+   position:absolute;
+  top:589px;
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(8) i{background-position: -2px -395px;
+   position:absolute;
+  top:621px;
+}
+
+
+#Shoppingcartbar .Shoppingcartbar p span{
+  font-size: 12px;
+  color:#FFFFFF;
+  text-align: center;
+   
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(2) span:nth-of-type(1){
+writing-mode: vertical-lr;
+text-align: center;
+ position:absolute;
+ top:29px;
+ left:10px;
+}
+
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3) span:nth-of-type(1){
+ font-size: 12px;
+  color:#FFFFFF;
+text-align: center;
+ position:absolute;
+ top:24px;
+ left:0px;
+}
+
+
+
+
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(2) span:nth-of-type(2){
+display:block;
+width: 22px;
+height: 22px;
+border-radius: 50%;
+background: #CA3619;
+font-weight: 900;
+text-align: center;
+line-height: 22px;
+ position:absolute;
+ top:70px;
+  left:8px;
+}
+
+
+
+
+
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3) span:nth-of-type(1){
+   /*position:absolute;
+  top:392px;*/
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3) span:nth-of-type(2){
+   position:absolute;
+  top:80px;
+  left:5px;
+}

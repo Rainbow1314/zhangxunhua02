@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../src/css/base.css" />
+    
+    <link rel="stylesheet" type="text/css" href="../src/css/buycar.css" /> 
+    <link rel="stylesheet" type="text/css" href="../src/css/buycarbanner.css"/>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/buycar.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+
+        <script src="../js/cart.js" type="text/javascript" charset="utf-8"></script>
+        <script  type="text/javascript" src="../js/move.js" charset="utf-8"></script>
+   
+<!-- 购物车插件引用的部分 -->
+
+
+<link rel="stylesheet" type="text/css" href="../src/css/car.css"/>
+<script src="../js/jquery-1.11.0.min.js"></script>
+
+
+
+    </head>
+    <body>
+
+    <div class="top con">
+       <img src="../src/img/indexImg/headertop.png" alt="" />
+   </div> 
+
+   <!-- <header> -->
+   <div id="header">
+
+       <div class="header_bottom con">
+        <div class="bottom_l fl">
+            <i></i>
+            <span id="maile">麦乐购首页</span>
+            <span id="denglu"> 用户7932749987</span>
+            <span id="registered">退出</span>
+           
+            <span>联系客服:400-666-6600</span>
+
+
+        </div>
+        <div class="bottom_r fl">
+
+            <div class="bottom_r1 fl">
+               <p>我的麦乐购<i><img id="jiantou" src="../src/img/indexImg/jiantou.png" alt="" /></i></p>
+               <ul>
+                <li>我的订单</li>
+                <li>我的账户</li>
+                <li>麦豆兑换</li>
+                <li>我的优惠券</li>
+                <li>我的收藏</li>
+            </ul></div>
+            <div class="bottom_r2 fl"><i id="collect"></i>收藏麦乐购</div>
+            <div class="bottom_r3 fl">妈妈推广计划</div>
+            <div class="bottom_r4 fl"><i id="phone"></i><span>手机麦乐购</span></div>   
+        </div>
+    </div>
+</div>
+
+<!-- <logo> -->
+<div id="logo" class="con">
+    <div class="logo_l fl">
+        <h2><a href="#"></a></h2>
+    </div>
+  
+        <div class="logo_r fl">
+           <img src="../src/img/indexImg/buycar/01.png" height="59" width="618" alt="" />
+        </div>
+    </div>
+
+
+
+<!-- 购物车 -->
+
+<div id="buycar">
+    <div class="buycar">
+    <h2>购物车</h2>
+                   <table>
+                      <thead>
+                          <tr>
+                              <th>由麦乐购发货 </th>
+                              <th>单价</th>
+                              <th>数量</th>
+                               <th>小计</th>
+                              <th>操作</th>
+                          </tr>
+                                 
+                      </thead> 
+                 
+                   </table>
+
+
+<ul id="cart">
+           <!--  <li>
+                <p><input type="checkbox" name="" id="" value="" /></p>
+                <p>由麦乐购发货</p>
+                <p >单价</p>
+                <p >数量</p>
+                <p >小计</p>
+                <p >操作</p>
+            </li> -->
+        <!--     <li>
+                <p class="good_check"><input type="checkbox" name="good" value="" /></p>
+                <p class="good_name">
+                        <img src="../src//img/databaseimg/goodlistimage/buycarimage03.jpg"  alt="" />
+                     <span>德国喜宝Hipp有机奶粉 pre段（0-6个月）600g（海外版)</span></p>   
+             
+                <p class="good_price">￥&nbsp;99.99</p>
+                <p class="num">
+                    <span class="cutnum">-</span>
+                    <input class="nownum" type="text" value="1" />
+                    <span class="addnum">+</span>
+                </p>
+                <p class="good_total">￥&nbsp;99.99</p>
+                <p class="good_del">
+                    <a href="javascript:;">删除</a>
+                </p>
+            </li>
+
+
+ <li>
+                <p class="good_check"><input type="checkbox" name="good" value="" /></p>
+                <p class="good_name">
+                        <img src="../src//img/databaseimg/goodlistimage/buycarimage03.jpg"  alt="" />
+                     <span>德国喜宝Hipp有机奶粉 pre段（0-6个月）600g（海外版)</span></p>   
+             
+                <p class="good_price">￥&nbsp;99.99</p>
+                <p class="num">
+                    <span class="cutnum">-</span>
+                    <input class="nownum" type="text" value="1" />
+                    <span class="addnum">+</span>
+                </p>
+                <p class="good_total">￥&nbsp;99.99</p>
+                <p class="good_del">
+                    <a href="javascript:;">删除</a>
+                </p>
+            </li>
+
+
+
+
+
+
+            <li>
+                <p class="good_check"><input type="checkbox" name="good" id="" value="" /></p>
+                <p class="good_name">荔枝</p>
+                <p class="good_price">￥&nbsp;55.99</p>
+                <p class="num">
+                    <span class="cutnum">-</span>
+                    <input class="nownum" type="text" value="1" />
+                    <span class="addnum">+</span>
+                </p>
+                <p class="good_total">￥&nbsp;55.99</p>
+                <p class="good_del">
+                    <a href="javascript:;">删除</a>
+                </p>
+            </li>
+            <li>
+                <p class="good_check"><input type="checkbox" name="good" id="" value="" /></p>
+                <p class="good_name">芒果</p>
+                <p class="good_price">￥&nbsp;65.99</p>
+                <p class="num">
+                    <span class="cutnum">-</span>
+                    <input class="nownum" type="text" value="1" />
+                    <span class="addnum">+</span>
+                </p>
+                <p class="good_total">￥&nbsp;65.99</p>
+                <p class="good_del">
+                    <a href="javascript:;">删除</a>
+                </p>
+            </li>
+            -->
+
+    </ul>
+
+        <div id="del">
+            <p id="allchecked"><input type="checkbox" name="" id="" value="" />全选</p>
+            <p id="delall">
+                <a href="javascript:;">删除</a>
+            </p>
+            <p id="allnum">已选 0 件商品</p>
+            <p id="totalprice">总计（不含运费）：￥0.00</p>
+            <h3>去结算</h3>
+        </div>
+
+    
+            </div>
+        </div>
+
+    
+
+
+
+
+
+<div id="center">
+        <div class="center">
+        <h2>最近关注的商品及相关推荐</h2>
+<div id="box">
+            <!--图片列表-->
+            <div id="imglist">
+                <ul id="moveimg">
+
+                <li>
+                   <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+        </li>
+
+        <li>
+            
+        
+                  <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+
+
+
+        </li>
+            <li>
+            
+        
+                   <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+
+
+
+        </li>
+
+        <li>
+            
+        
+                  <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+
+
+
+        </li>   
+
+<li>
+            
+        
+                   <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+
+
+
+        </li>
+
+        <li>
+            
+        
+                   <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+
+
+
+        </li>
+
+
+<li>
+            
+        
+                   <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+
+
+
+        </li>
+
+        <li>
+            
+        
+                   <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+
+
+
+        </li>
+
+
+
+<li>
+                   <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+
+
+
+        </li>
+
+        <li>
+            
+        
+                  <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+
+
+
+        </li>
+
+<li>
+            
+        
+                   <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+
+
+
+        </li>
+
+        <li>
+            
+        
+                   <img src="../src/img/indexImg/listimg/Sellrecommended_t1.png"  alt="" />
+                    <p> 
+                      <span>英国惠氏奶粉SMA2段（6-12个月）800g（海外版） </span> 
+                     <span>¥1706</span><br />
+                      <span> 价格</span>
+                      <del> ¥2488</del>
+                      <span>立即抢购</span>
+                  </p>
+             
+        </li>
+
+                </ul>
+            </div>
+            
+            <!--上下按钮-->
+            <div id="posibtn">
+                <p id="prev"><i></i></p>
+                <p id="next"><i></i></p>
+            </div>
+        </div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div id="footer22">
+    <div class="footer22 con">
+
+
+        <ul>
+            <li>关于麦乐购</li>
+            <li>保税店专区</li>
+            <li> 服务条款</li>
+            <li> 商户合作</li>
+            <li>O2O合作</li>
+            <li>联系我们</li>
+            <li>友情链接</li>
+            <li>诚聘英才</li>
+            <li>手机麦乐购</li>
+            <li>意见建议</li>
+            <li>媒体报道</li>
+        </ul>
+
+    </div>
+</div>
+
+<div id="footer33">
+    <div class="footer33 con">
+        <p>京公网安备：11010102000812号 | 中华人民共和国出版物经营许可证编号：150023 | 广电制作经营许可证：(京)字第06356号</p>
+        <p>网络文化经营许可证：京网文(2016)4048-509号 | 食品经营许可证编号：JY11101070034785 | 食品卫生许可证编号：110101_JX0020 | 互联网药品信息服务证书编号：(京)-2016-0095</p>
+        <p>Copyright 2006 - 2016 北京天使圣婴科技有限公司版权所有 | 经营许可证编号：京ICP证150027号 | 营业执照：911101010672694772 | 京ICP备14022296号 | 中国服务热线：400-666-6600</p>
+        <img src="../src/img/indexImg/thelaster.png" height="124" width="571" alt="" />
+    </div>
+</div>
+
+
+<div id="Shoppingcartbar">
+    <div class="Shoppingcartbar">
+        <p><i></i></p>
+        <p class="custom"><i></i><span>购物车</span><span>0</span></p>
+        <p class="custom2"><i></i><span>客户  经理</span><i class="dog"></i><span>客服</span></p>
+        <p><i></i></p>
+        <p><i></i></p>
+        <p><i></i></p>
+        <p><i></i></p>
+        <p><i id="backtop"></i></p>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,110 @@
+/* 
+* @Author: Marte
+* @Date:   2018-11-22 21:19:34
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-11-22 23:41:41
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+/*图片的样式*/
+#box{
+    width: 810px;
+    height: 480px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#imglist{
+ width: 810px;
+    height: 480px;
+}
+
+
+
+
+#imglist .bannerimg{
+    position: absolute;
+    left: 0;
+    top: 0;
+  width: 810px;
+    height: 480px;
+    z-index:0;
+   
+   }/*
+#imglist li:nth-child(1){
+    background: #0088CC;
+}
+#imglist li:nth-child(2){
+    background: lemonchiffon;
+}
+#imglist li:nth-child(3){
+    background: lavenderblush;
+}
+#imglist li:nth-child(4){
+    background: lightcoral;
+}
+#imglist li:nth-child(5){
+    background: lightcyan;
+}
+#imglist li:nth-child(6){
+    background: lightgreen;
+}
+*/
+/*焦点样式*/
+#light{
+    width:  1000px;
+    height: 50px;
+    position: absolute;
+    left:0;
+    bottom: 10px;
+    z-index: 10;
+ 
+}
+#light span{
+    display: inline-block;
+    width: 157px;
+    height: 50px;  
+    cursor: pointer;
+}
+#light span.active{
+    position:relative;
+    top:-10px;
+}
+
+/*左右按钮样式*/
+/*#posibtn{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -25px;
+    /*background: #ccc;*/
+/*
+#posibtn p{
+    width: 50px;
+    height: 50px;
+    background: #0074CC;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+#posibtn p::selection{
+    background: transparent;
+}
+#posibtn p:nth-child(1){
+    left: 10px;
+}
+#posibtn p:nth-child(2){
+    right: 10px;
+}*/

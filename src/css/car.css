@@ -1,0 +1,35 @@
+
+            #orderlist  #cart li{
+                list-style: none;
+                clear: both;
+                width: 800px;
+            }
+            
+            #orderlist  #cart ul li p{
+                float: left;
+                margin: 10px;
+            }
+            
+            #orderlist  #cart ul li p span{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background: #d8d8d8;
+                cursor: pointer;
+                text-align: center;
+                line-height: 20px;
+            }
+            
+            #orderlist  #cart ul li p span::selection{
+                background: transparent;
+            }
+            
+             #orderlist  #cart div{
+                clear: both;
+                margin-left: 40px;
+            }
+            
+            #orderlist  #cart  div p{
+                float: left;
+                margin: 10px;
+            }

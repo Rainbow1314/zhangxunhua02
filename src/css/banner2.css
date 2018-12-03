@@ -1,0 +1,214 @@
+
+
+#centersection .centersection 
+.Sellrecommended .Sellrecommended_t #box {
+	width: 930px;
+	height: 150px;
+
+	position: relative;
+	overflow: hidden;
+}
+
+
+/*li:200px*/
+
+
+/*图片的样式*/
+
+#centersection .centersection 
+.Sellrecommended .Sellrecommended_t #box #imglist {
+	width: 930px;
+	height: 150px;
+}
+
+#centersection .centersection 
+.Sellrecommended .Sellrecommended_t #box #imglist ul{
+	width: 930px;
+	height: 151px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#centersection .centersection 
+.Sellrecommended .Sellrecommended_t #box #imglist li {
+	width: 230px;
+	height: 150px;
+	float: left;
+	color: red;
+	
+	text-align: center;
+	
+}
+
+
+
+
+
+#centersection .centersection 
+.Sellrecommended .Sellrecommended_t #box #imglist  li img{
+ display:inline-block;
+ 
+   float:left;
+}
+
+#centersection .centersection 
+.Sellrecommended .Sellrecommended_t  #box #imglist  li p{
+  width: 135px;
+  height: 149px;
+  float:left;
+  box-sizing: border-box;
+  padding-top: 26px;
+}
+#centersection .centersection 
+.Sellrecommended .Sellrecommended_t #box #imglist  li p span:nth-child(1){
+  display:inline-block;
+  width: 98px;
+font-size: 12px;
+color:#777777;
+line-height: 17px;
+overflow: hidden;
+height: 36px;
+}
+#centersection .centersection 
+.Sellrecommended .Sellrecommended_t  #box #imglist  li p span:nth-child(2){
+font-size: 12px;
+font-weight: 900;
+color:#CB1C00;
+line-height: 21px;
+}
+#centersection .centersection 
+.Sellrecommended .Sellrecommended_t #box #imglist  li p span:nth-child(4){
+  font-size: 12px;
+  color:#CCCCCC;
+
+}
+#centersection .centersection 
+.Sellrecommended .Sellrecommended_t  #box #imglist  li p del{
+    font-size: 12px;
+  color:#CCCCCC;
+} 
+
+#centersection .centersection 
+.Sellrecommended .Sellrecommended_t  #box #imglist  li p span:nth-child(6){
+  display:block;
+  width: 84px;
+  height: 26px;
+  background: #CE1C00;
+  text-align: center;
+  font-size: 12px;
+  line-height: 26px;
+color:#FFFFFF;
+border-radius: 2px;
+margin-top: 4px;
+margin-left:29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*焦点的样式*/
+
+#light {
+	width: 912px;
+	height: 20px;
+	/*background: #ccc;*/
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	text-align: center;
+}
+
+#light span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #D8D8D8;
+	text-align: center;
+	line-height: 20px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+#light span.active {
+	background: orange;
+}
+
+
+/*左右按钮*/
+
+
+
+/*#posibtn p {
+	width: 16px;
+	height: 52px;
+	background: #004AB3;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}*/
+
+
+#posibtn p:nth-child(1) {
+	float: left;
+	
+}
+
+#posibtn p:nth-child(2) {
+	float: right;
+
+}
+
+
+#posibtn{
+  width: 925px;
+	height: 50px;
+  /*background: #F9F9F9;*/
+  text-align: center;
+  line-height: 52px;
+  /*border:1px solid #DFDFDF;*/
+  /*position:absolute;
+  top:82px;
+  left: 7px;
+   z-index:2;*/
+   position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -25px;
+
+}
+#posibtn p{
+width: 13px;
+height: 51px;
+background: #F9F9F9;
+
+}
+
+
+
+#posibtn #prev i{
+display:inline-block;
+width: 13px;
+height: 51px;
+background: url(../img/indexImg/left.png);
+background-position:-312px -138px ;
+/*background: #F9F9F9;*/
+
+}
+#posibtn #next i{
+	display:inline-block;
+width: 13px;
+height: 51px;
+background: url(../img/indexImg/left.png);
+background-position:-356px -137px;
+/*background: #F9F9F9;*/}

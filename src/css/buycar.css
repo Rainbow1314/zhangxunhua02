@@ -1,0 +1,657 @@
+/* 
+* @Author: Marte
+* @Date:   2018-11-24 17:16:35
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-11-30 16:39:58
+*/
+/*<!-- <header> -->*/
+#header{
+    width: 100%;
+    height: 35px;
+    background: #F5F5F5;
+}
+ .top{width: 100%;
+    height: 50px;
+  background: #FF3859;
+}
+#header .header_bottom{
+    height: 35px;
+    
+}
+#header .header_bottom .bottom_l{
+    width: 810px;
+    height: 35px;
+}
+#header .header_bottom .bottom_l i{
+    display: inline-block;
+    width: 20px;
+    height: 35px;
+    background: url(../img/indexImg/left.png) no-repeat;
+
+}
+#header .header_bottom .bottom_l i:nth-of-type(1){
+background-position: 0px 10px;
+}
+
+#header .header_bottom .bottom_l span{
+    font-size: 12px;
+   
+    color:#999999;
+    line-height:35px;
+    position:relative;
+    top:-12px;
+
+}
+
+#header .header_bottom .bottom_l span:nth-of-type(5){
+margin-left: 15px;
+}
+
+
+#header .header_bottom .bottom_r{
+    width: 382px;
+    height: 35px;
+}
+
+#header .header_bottom .bottom_r>div{
+    width: 95px;
+    height: 35px;
+    color:#999999;
+    font-size: 12px;
+    line-height: 35px;
+    background: url(../img/indexImg/border.png) no-repeat  right center;
+    text-align: center;
+}
+/*#header .header_bottom .bottom_r .bottom_r1{
+    height:0px; 
+}*/
+
+#header .header_bottom .bottom_r .bottom_r1 ul{
+display:none;
+ width: 95px;
+    color:#999999;
+    font-size: 12px;
+    line-height: 24px;
+    background: #F5F5F5;
+    position:absolute;
+    z-index: 22;
+}
+
+
+#header .header_bottom .bottom_r .bottom_r1 p i{
+    display:inline-block;
+    width: 13px;
+    height: 24px;
+     /*background: url(../img/indexImg/left.png) no-repeat;
+     background-position: -88px 8px;*/
+     margin-left: 5px;
+}
+
+
+#header .header_bottom .bottom_r .bottom_r2  i{
+    display:inline-block;
+    width: 13px;
+    height: 24px;
+     background: url(../img/indexImg/left.png) no-repeat;
+     background-position: -67px -12px;
+      margin-left: 5px;
+}
+
+#header .header_bottom .bottom_r .bottom_r4  i{
+    display:inline-block;
+    width: 22px;
+    height: 30px;
+     background: url(../img/indexImg/left.png) no-repeat;
+     background-position: -19px 11px;
+      margin-left: 12px;
+}
+#header .header_bottom .bottom_r .bottom_r4 span{
+     position:relative;
+    top:-6px;
+}
+
+/*logo*/
+
+#logo{
+  width: 100%;
+  height: 121px;
+   border-bottom:1px solid #D10000;
+}
+#logo .logo_l{
+  width: 229px;height: 121px;
+   padding-left: 67px;
+  padding-top: 18px;
+
+
+}
+#logo .logo_l h2{
+  width: 162px;
+  height: 84px;
+  background:url(../img/indexImg/logo.png) no-repeat;
+
+}
+#logo .logo_r{
+  width: 501px;height: 121px;
+  padding-top: 38px;
+  margin-left: 360px;
+ 
+}
+
+
+
+/*购物车*/
+#buycar{
+  width: 100%;
+  
+}
+#buycar .buycar{
+  width: 1005px;
+  /*height: 548px;*/
+border:1px solid #C97070;
+margin:50px auto;
+}
+
+
+#buycar .buycar h2{
+  width: 1005px;
+  height: 30px;
+  background: #C97070;
+  font-size: 18px;
+  color:#fff;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+
+
+#buycar .buycar table{
+  width: 1003px;
+  height: 366px;
+  border:1px solid #CCCCCC;
+   margin-left: 0px;
+}
+#buycar .buycar table thead tr{
+   width: 958px;
+   height: 30px;
+   border:1px solid #CCCCCC;
+   background: #EEEEEE;
+
+}
+
+#buycar .buycar table thead tr th{
+ 
+  height: 30px;
+   border-right:1px solid #CCCCCC;
+}
+
+
+#buycar .buycar table thead tr:nth-child(1) th:nth-child(1){
+  width: 480px;
+ 
+}
+#buycar .buycar table thead tr th:nth-child(2){
+   width: 143px;
+  
+}
+#buycar .buycar table thead tr th:nth-child(3){
+   width: 197px;
+}
+#buycar .buycar table thead tr th:nth-child(4){
+   width: 96px;
+}
+#buycar .buycar table thead
+ .Packagemail{ 
+  width: 957px;
+  height: 35px;
+   border:1px solid #CCCCCC;
+    background: #EEEEEE;
+}
+
+
+#buycar .buycar #cart li{
+  list-style: none;
+  clear: both;
+  width: 1005px;
+  height: 73px;
+border-bottom:2px solid #CCCCCC;
+  }
+                  
+#buycar .buycar #cart li p{
+                float: left;
+            /*border:1px solid #ccc;*/
+            }
+            
+ #buycar .buycar #cart li p:nth-child(1){
+width: 35px;
+height: 72px;
+text-align: center;
+line-height: 72px;
+ }    
+
+ #buycar .buycar #cart li p:nth-child(2){
+width: 445px;
+height: 73px;
+text-align: center;
+line-height: 72px;
+ }  
+
+ #buycar .buycar #cart li p:nth-child(2) img{
+  display:block;
+  float:left;
+  width: 50px;
+  height: 50px;
+border:1px solid #BBBBBB;
+margin-top: 10px;
+
+
+ }
+
+  #buycar .buycar #cart li p:nth-child(2) span{
+  display:block;
+  float:left;
+  width: 382px;
+  height: 69px;
+  font-size: 12px;
+  color:#444444;
+  line-height: 30px;
+  background: #fff;
+  text-align: left;
+
+  
+ }
+
+
+  #buycar .buycar #cart li p:nth-child(3){
+width: 144px;
+height: 73px;
+text-align: center;
+line-height: 72px;
+color:#444444;
+font-size: 14px;
+font-weight: 900;
+ }  
+
+
+   #buycar .buycar #cart li p:nth-child(4){
+width: 197px;
+height: 73px;
+
+line-height: 72px;
+ } 
+   #buycar .buycar #cart li p:nth-child(4) input{
+    border:2px solid #CCCCCC;
+    text-align:center;
+    width: 127px;
+    height: 20px;
+}
+#buycar .buycar #cart li p:nth-child(5){
+width: 96px;
+height: 73px;
+text-align: center;
+line-height: 72px;
+color:#E52100;
+font-size: 14px;
+font-weight: 900;
+ } 
+#buycar .buycar #cart li p:nth-child(6){
+width: 86px;
+height: 73px;
+text-align: center;
+line-height: 72px;
+font-size: 14px;
+
+font-weight: 900;
+ } 
+
+ #buycar .buycar #cart li p:nth-child(6) a{
+color:#444444;
+
+ }
+
+#buycar .buycar #cart li p span{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #d8d8d8;
+            cursor: pointer;
+            text-align: center;
+            line-height: 17px;
+            margin-left: 5px;
+            }
+            
+                
+#buycar .buycar #cart li p span::selection{
+                background: transparent;
+            }
+            
+               
+#buycar .buycar  #cart div{
+                clear: both;
+                margin-left: 40px;
+            }
+            
+               
+#buycar .buycar  #cart div p{
+                float: left;
+                margin: 10px;
+            }
+
+#buycar .buycar #del{
+  width: 1002px;
+  height: 40px;
+  background: #F0F0F0;
+}
+
+#buycar .buycar #del p{
+  float:left;
+}
+
+
+#buycar .buycar #del p:nth-child(1){
+  width: 56px;
+height: 54px;
+text-align: center;
+line-height: 40px;
+font-size: 14px;
+color:#444;
+font-weight: 900;
+
+}
+#buycar .buycar #del p:nth-child(2){
+ width: 123px;
+height: 54px;
+text-align: center;
+line-height: 40px;
+font-size: 14px;
+color:#444;
+font-weight: 900;
+}
+
+#buycar .buycar #del p:nth-child(2) a{
+  color:#444;
+}
+
+
+#buycar .buycar #del p:nth-child(3){
+ width: 110px;
+height: 54px;
+text-align: center;
+line-height: 40px;
+font-size: 14px;
+color:#444;
+font-weight: 900;
+margin-right:197px;
+}
+
+
+
+
+#buycar .buycar #del p:nth-child(4){
+  
+ width: 300px;
+height: 37px;
+text-align: center;
+line-height: 40px;
+
+font-size:16px;
+color:#E52100;
+font-weight: 900;
+  float:left;
+
+}
+#buycar .buycar #del h3{
+  width: 200px;
+height: 37px;
+text-align: center;
+line-height: 40px;
+background: #CF2E13;
+font-size:16px;
+color:#fff;
+font-weight: 900;
+  float:left;
+  margin-left: 16px;
+
+}
+
+/*下面粉色的部分*/
+
+
+
+#footerimg{
+  width: 100%;
+  text-align: center;
+
+}
+
+#footer{
+  width: 100%;
+  height: 182px;
+  background: #FFFFFF;
+}
+
+#footer .footer{
+  height: 182px;
+  background: #FFFFFF;
+padding-top: 34px;
+padding-left: 55px;
+
+
+}
+
+#footer .footer .footer_l:nth-child(6){
+  margin-right: 0px;
+}
+
+
+#footer .footer .footer_l{
+width: 92px;
+height: 121px;
+margin-right: 110px;
+
+}
+#footer .footer .footer_l h2{
+  font-size: 14px;
+  color:#000000;
+  margin-bottom: 7px;
+}
+#footer .footer .footer_l ul li{
+  color:#666666;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+#footer22{
+  width: 100%;
+  height: 33px;
+  background: #444851;
+}
+#footer22 .#footer22{
+   height: 33px;
+ 
+}
+#footer22 .footer22 ul{
+  width: 1150px;
+  height: 33px;
+  padding-left: 60px;
+}
+#footer22 .footer22 ul li{
+  width: 85px;
+  height: 33px;
+  float:left;
+  
+  color:#666666;
+  font-size: 10px;
+  line-height: 33px;
+  background:url(../img/indexImg/footer101.png) no-repeat right center;
+  text-align:center;
+}
+
+#footer33{
+  width: 100%;
+  height: 179px;
+  background: #FFFFFF;
+}
+#footer33  .footer33{
+  
+  height: 179px;
+  text-align: center;
+
+}
+#footer33  .footer33 p{
+  font-size: 12px;
+  color:#000000;
+  text-align: center;
+  line-height: 24px;
+
+}
+#footer33  .footer33 p:nth-child(1){
+  margin-top: 10px;
+}
+
+
+#Shoppingcartbar{
+  width: 36px;
+  height: 647px;
+  background: #444851;
+  position:fixed;
+  right:0px;
+  top:0px;
+  
+}
+
+
+#Shoppingcartbar .Shoppingcartbar{
+  width: 36px;
+  height: 647px;
+  background: #444851;
+ 
+  position:relative;
+}
+
+#Shoppingcartbar .Shoppingcartbar p{
+  background: #444851;
+  width: 36px;
+  height: 30px;
+}
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(2){
+  background:#444851;
+  width: 36px;
+  height: 108px;
+   position:absolute;
+  top:132px;
+}
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3){
+  background:#444851;
+  width: 36px;
+  height: 108px;
+   position:absolute;
+  top:364px;
+
+  /*z-index: 1;*/
+}
+
+
+#Shoppingcartbar .Shoppingcartbar i{
+  display:block;
+  width: 36px;
+  height: 30px;
+  background: url(../img/indexImg/left.png) no-repeat;
+}
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(1) i{background-position: -3px -94px;
+  position:absolute;
+  top:101px;
+}
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(2) i{background-position: -3px -146px;
+ /*  position:absolute;
+  top:101px;*/
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3) i{background-position: -567px -29px;
+  /* position:absolute;
+  top:363px;*/
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3) i:nth-of-type(2){background-position: -2px -192px;
+   position:absolute;
+  top:55px;
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(4) i{background-position: -1px -240px;
+   position:absolute;
+  top:483px;
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(5) i{background-position: -2px -284px;
+   position:absolute;
+  top:519px;
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(6) i{background-position: -2px -322px;
+   position:absolute;
+  top:554px;
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(7) i{background-position: -2px -357px;
+   position:absolute;
+  top:589px;
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(8) i{background-position: -2px -395px;
+   position:absolute;
+  top:621px;
+}
+
+
+#Shoppingcartbar .Shoppingcartbar p span{
+  font-size: 12px;
+  color:#FFFFFF;
+  text-align: center;
+   
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(2) span:nth-of-type(1){
+writing-mode: vertical-lr;
+text-align: center;
+ position:absolute;
+ top:29px;
+ left:10px;
+}
+
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3) span:nth-of-type(1){
+ font-size: 12px;
+  color:#FFFFFF;
+text-align: center;
+ position:absolute;
+ top:24px;
+ left:0px;
+}
+
+
+
+
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(2) span:nth-of-type(2){
+display:block;
+width: 22px;
+height: 22px;
+border-radius: 50%;
+background: #CA3619;
+font-weight: 900;
+text-align: center;
+line-height: 22px;
+ position:absolute;
+ top:70px;
+  left:8px;
+}
+
+
+
+
+
+
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3) span:nth-of-type(1){
+   /*position:absolute;
+  top:392px;*/
+}
+#Shoppingcartbar .Shoppingcartbar p:nth-child(3) span:nth-of-type(2){
+   position:absolute;
+  top:80px;
+  left:5px;
+}
